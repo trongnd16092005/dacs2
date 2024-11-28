@@ -13,18 +13,18 @@
                                 <ul>
                                     <li>
                                         <i class="mdi mdi-map-marker"></i>
-                                        <p>48 Cao Thắng,</p>
-                                        <p>Trường đại học sư phạm kỹ thuật</p>
+                                        <p>460 Trần Đại Nghĩa</p>
+                                        <p>Trường đại học CNTT&TT Việt Hàn</p>
                                     </li>
                                     <li>
                                         <i class="mdi mdi-phone"></i>
-                                        <p>(+84) 383425354</p>
-                                        <p>(+84) 702076081</p>
+                                        <p>(+84) 822047392</p>
+                                        <p>(+84) 911317140</p>
                                     </li>
                                     <li>
                                         <i class="mdi mdi-email"></i>
-                                        <p>ute0700@gmail.com</p>
-                                        <p>ute@ute.udn.vn</p>
+                                        <p>trongnd.23itb@vku.udn.vn</p>
+                                        <p>trongnd.23itb@vku.udn.vn</p>
                                     </li>
                                 </ul>
                             </div>
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                    <p>&copy; DTPPhone 2020. All Rights Reserved.</p>
+                    <p>&copy; Havana 2024. All Rights Reserved.</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 text-right">
                     <a href="https://www.nganluong.vn/vn/home.html" target="_blank"><img src="public/img/footer/payment.png" alt="" /></a>
