@@ -127,7 +127,7 @@
                             foreach ($_SESSION['sanpham'] as $value) { ?>
                         <div class="sin-itme clearfix">
                         <a href="?act=cart&xuli=deleteall&id=<?= $value['MaSP'] ?>"><i class="mdi mdi-close" title="Remove this product"></i></a>
-                            <a class="cart-img" href="?act=cart"><img src="public/<?=$value['HinhAnh1']?>" alt="" /></a>
+                            <a class="cart-img" href="?act=cart"><img src="public/<?=$value['HinhAnh']?>" alt="" /></a>
                             <div class="menu-cart-text">
                                 <a href="?act=detail&id=<?=$value['MaSP']?>">
                                     <h5><?=$value['TenSP']?></h5>

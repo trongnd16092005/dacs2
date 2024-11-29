@@ -37,7 +37,7 @@
 								foreach ($_SESSION['sanpham'] as $value) { ?>
 									<tr>
 										<td class="td-img text-left">
-											<a href="?act=detail&id=<?= $value['MaSP'] ?>"><img src="public/<?= $value['HinhAnh1'] ?>" alt="Add Product" /></a>
+											<a href="?act=detail&id=<?= $value['MaSP'] ?>"><img src="public/<?=$value['HinhAnh']?>" alt="Add Product" /></a>
 											<div class="items-dsc">
 												<h5><a href="?act=detail&id=<?= $value['MaSP'] ?>"><?= $value['TenSP'] ?></a></h5>
 											</div>

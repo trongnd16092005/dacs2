@@ -24,7 +24,7 @@
 				<div class="googleMap-info">
 					<div id="googleMap"></div>
 					<div class="map-info">
-						<p><strong>DTP Phone</strong></p>
+						<p><strong>Havana Shop</strong></p>
 					</div>
 				</div>
 			</div>
@@ -36,22 +36,22 @@
 						<div class="col-sm-4">
 							<div class="single-contact">
 								<i class="mdi mdi-map-marker"></i>
-								<p>48 Cao Thắng,</p>
-								<p>Trường đại học sư phạm kỹ thuật</p>
+									<p>460 Trần Đại Nghĩa</p>
+									<p>Trường đại học CNTT&TT Việt Hàn</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="single-contact">
 								<i class="mdi mdi-phone"></i>
-								<p>(+84) 383425354</p>
-								<p>(+84) 702076081</p>
+									<p>(+84) 822047392</p>
+                                	<p>(+84) 911317140</p>
 							</div>
 						</div>
 						<div class="col-sm-4">
 							<div class="single-contact">
 								<i class="mdi mdi-email"></i>
-								<p>ute@gmail.com</p>
-								<p>ute@ute.udn.vn</p>
+									<p>trongnd.23itb@vku.udn.vn</p>
+                                	<p>trongnd.23itb@vku.udn.vn</p>
 							</div>
 						</div>
 					</div>

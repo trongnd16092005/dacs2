@@ -41,7 +41,7 @@ class CartController
             $arr['DonGia'] = $data['DonGia'];
             $arr['SoLuong'] = 1;
             $arr['ThanhTien'] = $data['DonGia'];
-            $arr['HinhAnh1'] = $data['HinhAnh1'];
+            $arr['HinhAnh'] = $data['HinhAnh'];
             $_SESSION['sanpham'][$id] = $arr;
         }
 

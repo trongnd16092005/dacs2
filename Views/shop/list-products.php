@@ -7,7 +7,7 @@
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<div class="single-product">
 				<div class="product-f">
-					<a href="?act=detail&id=<?=$value['MaSP']?>"><img src="public/<?=$value['HinhAnh1']?>" alt="Product Title" class="img-products"/></a>
+					<a href="?act=detail&id=<?=$value['MaSP']?>"><img src="public/<?=$value['HinhAnh']?>" alt="Product Title" class="img-products"/></a>
 					<div class="actions-btn">
 						<a href="?act=detail&id=<?=$value['MaSP']?>"><i class="mdi mdi-cart"></i></a>
 						<a href="?act=detail&id=<?=$value['MaSP']?>" data-toggle="modal" ><i class="mdi mdi-eye"></i></a>		

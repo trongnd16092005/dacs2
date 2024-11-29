@@ -25,20 +25,19 @@
 			<div class="main-padding section-padding-top clearfix">
 				<div class="col-sm-12 col-md-5">
 					<div class="about-img">
-						<img src="public/img/about/1.jpg" alt="" />
+						<img src="public/img/about/cuahang.jpg" alt="" />
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<div class="about-text">
 						<div class="about-author">
-							<h4>Cửa hàng điện thoại DTP</h4>
+							<h4>Cửa hàng tạp hóa Havana</h4>
 						</div>
-						<h5>Cửa hàng chúng tôi với:</h5>
+						<h5>Tại Havana, chúng tôi tự hào mang đến cho khách hàng</h5>
 						<ol>
-							<li>Chế độ trả góp ưu đãi</li>
-							<li>Thái độ phục vụ tốt</li>
-							<li>Nguồn cung cấp uy tín và ổn định</li>
-							<li>Chế độ bảo hành hợp lý</li>
+							<li>Sản phẩm đa dạng: Từ thực phẩm tươi sống, đồ khô, đồ gia dụng đến những món đồ thiết yếu hàng ngày, chúng tôi luôn sẵn sàng đáp ứng mọi nhu cầu của bạn.</li>
+							<li>Chất lượng đảm bảo: Chúng tôi chọn lọc kỹ lưỡng từ những nhà cung cấp uy tín để mang lại sự an tâm cho gia đình bạn.</li>
+							<li>Tiện lợi tối đa: Với nền tảng mua sắm trực tuyến, bạn chỉ cần vài thao tác đơn giản để đặt hàng và nhận hàng ngay tại nhà, tiết kiệm thời gian và công sức.</li>
 						</ol>
 						<p>Với những chế độ đó chúng tôi hứa sẽ mang lại cho khách một sự hài lòng nhất khi đến với cửa hàng của chúng tôi</p>
 					</div>
@@ -49,76 +48,3 @@
 </div>
 <!-- about-us section end -->
 <!-- team-member section start -->
-<section class="pages team-member section-padding-bottom">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="section-title text-center">
-					<h3>Đội ngũ hỗ trợ</h3>
-				</div>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-sm-12 col-md-4">
-				<div class="single-member">
-					<div class="member-img">
-						<a href="#"><img src="public/img/about/m1.jpg" alt="Team Member" /></a>
-					</div>
-					<div class="share-member">
-						<div class="member-title">
-							<h4>Dương Xuân Dưỡng</h4>
-						</div>
-						<div class="member-btn">	
-							<a href="#"><i class="mdi mdi-facebook"></i></a>
-							<a href="#"><i class="mdi mdi-twitter"></i></a>
-							<a href="#"><i class="mdi mdi-google-plus"></i></a>
-							<a href="#"><i class="mdi mdi-dribbble"></i></a>
-							<a href="#"><i class="mdi mdi-rss"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- single member end -->
-			<div class="col-sm-12 col-md-4">
-				<div class="single-member">
-					<div class="member-img">
-						<a href="#"><img src="public/img/about/m2.jpg" alt="Team Member" /></a>
-					</div>
-					<div class="share-member">
-						<div class="member-title">
-							<h4>Trịnh Quang Phúc</h4>
-						</div>
-						<div class="member-btn">	
-							<a href="#"><i class="mdi mdi-facebook"></i></a>
-							<a href="#"><i class="mdi mdi-twitter"></i></a>
-							<a href="#"><i class="mdi mdi-google-plus"></i></a>
-							<a href="#"><i class="mdi mdi-dribbble"></i></a>
-							<a href="#"><i class="mdi mdi-rss"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- single member end -->
-			<div class="col-sm-12 col-md-4">
-				<div class="single-member">
-					<div class="member-img">
-						<a href="#"><img src="public/img/about/m3.jpg" alt="Team Member" /></a>
-					</div>
-					<div class="share-member">
-						<div class="member-title">
-							<h4>Nguyễn Hữu Tuấn</h4>
-						</div>
-						<div class="member-btn">	
-							<a href="#"><i class="mdi mdi-facebook"></i></a>
-							<a href="#"><i class="mdi mdi-twitter"></i></a>
-							<a href="#"><i class="mdi mdi-google-plus"></i></a>
-							<a href="#"><i class="mdi mdi-dribbble"></i></a>
-							<a href="#"><i class="mdi mdi-rss"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- team-member section end -->

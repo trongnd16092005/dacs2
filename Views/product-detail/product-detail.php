@@ -27,19 +27,9 @@
                             <div class="single-quick-image text-center">
                                 <div class="list-img">
                                     <div class="product-f tab-content">
-                                        <?php if ($data['HinhAnh2'] !=  null) { ?>
+                                        <?php if ($data['HinhAnh'] !=  null) { ?>
                                             <div class="simpleLens-container tab-pane fade in" id="sin-1">
-                                                <a class="simpleLens-image" data-lens-image="public/<?= $data['HinhAnh2'] ?>" href="#"><img src="public/<?= $data['HinhAnh2'] ?>" alt="" class="simpleLens-big-image"></a>
-                                            </div>
-                                        <?php } ?>
-                                        <?php if ($data['HinhAnh1'] != null) { ?>
-                                            <div class="simpleLens-container tab-pane active fade in" id="sin-2">
-                                                <a class="simpleLens-image" data-lens-image="public/<?= $data['HinhAnh1'] ?>" href="#"><img src="public/<?= $data['HinhAnh1'] ?>" alt="" class="simpleLens-big-image"></a>
-                                            </div>
-                                        <?php } ?>
-                                        <?php if ($data['HinhAnh3'] != null) { ?>
-                                            <div class="simpleLens-container tab-pane fade in" id="sin-3">
-                                                <a class="simpleLens-image" data-lens-image="public/<?= $data['HinhAnh3'] ?>" href="#"><img src="public/<?= $data['HinhAnh3'] ?>" alt="" class="simpleLens-big-image"></a>
+                                                <a class="simpleLens-image" data-lens-image="public/<?= $data['HinhAnh'] ?>" href="#"><img src="public/<?= $data['HinhAnh'] ?>" alt="" class="simpleLens-big-image"></a>
                                             </div>
                                         <?php } ?>
                                     </div>
@@ -47,15 +37,10 @@
                             </div>
                             <div class="quick-thumb">
                                 <ul class="product-slider">
-                                    <?php if ($data['HinhAnh2'] != null) { ?>
-                                        <li class="active"><a data-toggle="tab" href="#sin-1"> <img src="public/<?= $data['HinhAnh2'] ?>" alt="quick view" /> </a></li>
+                                    <?php if ($data['HinhAnh'] != null) { ?>
+                                        <li class="active"><a data-toggle="tab" href="#sin-1"> <img src="public/<?= $data['HinhAnh'] ?>" alt="quick view" /> </a></li>
                                     <?php } ?>
-                                    <?php if ($data['HinhAnh1'] != null) { ?>
-                                        <li><a data-toggle="tab" href="#sin-2"> <img src="public/<?= $data['HinhAnh1'] ?>" alt="small image" /> </a></li>
-                                    <?php } ?>
-                                    <?php if ($data['HinhAnh3'] != null) { ?>
-                                        <li><a data-toggle="tab" href="#sin-3"> <img src="public/<?= $data['HinhAnh3'] ?>" alt="small image" /> </a></li>
-                                    <?php } ?>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -93,58 +78,11 @@
                 <div class="col-xs-12">
                     <div class="reviews padding60 margin-top">
                         <ul class="reviews-tab clearfix" id="info">
-                            <?php if ($data['MaDM'] == 1) { ?>
-                                <li class="active"><a data-toggle="tab" href="#moreinfo">Đặc điểm</a></li>
-                            <?php } ?>
+                            
                             <li><a data-toggle="tab" href="#reviews">Đánh giá</a></li>
                         </ul>
                         <div class="tab-content">
-                            <?php if ($data['MaDM'] == 1) { ?>
-                                <div class="info-reviews moreinfo tab-pane fade in active" id="moreinfo">
-                                    <div class="tb">
-                                        <h5>Thông số kỹ thuật</h5>
-                                        <ul>
-                                            <li>
-                                                <span>Màn hình</span>
-                                                <div><?= $data['ManHinh'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Chip</span>
-                                                <div><?= $data['CPU'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Ram</span>
-                                                <div><?= $data['Ram'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Bộ nhớ trong</span>
-                                                <div><?= $data['Rom'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Pin</span>
-                                                <div><?= $data['Pin'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Camera trước</span>
-                                                <div><?= $data['CamTruoc'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Camera sau</span>
-                                                <div><?= $data['CamSau'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Thẻ nhớ</span>
-                                                <div><?= $data['SDCard'] ?></div>
-                                            </li>
-                                            <li>
-                                                <span>Hệ điều hành</span>
-                                                <div><?= $data['HDH'] ?></div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                            <div class="<?php if ($data['MaDM'] == 1) {
+                            <div class="<?php if ($data['MaDM'] == 3) {
                                             echo 'info-reviews review-text tab-pane fade in';
                                         } else {
                                             echo 'info-reviews moreinfo tab-pane fade in active';
@@ -209,7 +147,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="single-product">
                             <div class="product-f">
-                                <a href="?act=detail&id=<?= $row['MaSP'] ?>"><img src="public/<?= $row['HinhAnh1'] ?>" alt="Product Title" class="img-products" /></a>
+                                <a href="?act=detail&id=<?= $row['MaSP'] ?>"><img src="public/<?= $row['HinhAnh'] ?>" alt="Product Title" class="img-products" /></a>
                                 <div class="actions-btn">
                                     <a href="?act=detail&id=<?= $row['MaSP'] ?>"><i class="mdi mdi-cart"></i></a>
                                     <a href="" data-toggle="modal" ><i class="mdi mdi-eye"></i></a>
