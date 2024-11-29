@@ -36,19 +36,9 @@
             <input type="text" class="form-control" id="" placeholder="" name="SoLuong" value="<?=$data['SoLuong']?>">
         </div>
         <div class="form-group">
-            <label for="">Hình ảnh 1</label>
-            <img src="../public/<?=$data['HinhAnh1']?>" height="200px" width="200px">
-            <input type="file" class="form-control" id="" placeholder="" name="HinhAnh1" value="<?=$data['HinhAnh1']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Hình ảnh 2</label>
-            <img src="../public/<?=$data['HinhAnh2']?>" height="200px" width="200px">
-            <input type="file" class="form-control" id="" placeholder="" name="HinhAnh2" value="<?=$data['HinhAnh2']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Hình ảnh 3</label>
-            <img src="../public/<?=$data['HinhAnh3']?>" height="200px" width="200px">
-            <input type="file" class="form-control" id="" placeholder="" name="HinhAnh3" value="<?=$data['HinhAnh3']?>">
+            <label for="">Hình ảnh</label>
+            <img src="../public/<?=$data['HinhAnh']?>" height="200px" width="200px">
+            <input type="file" class="form-control" id="" placeholder="" name="HinhAnh" value="<?=$data['HinhAnh']?>">
         </div>
         <div class="form-group">
             <label for="cars">Mã khuyến mãi </label>
@@ -57,42 +47,6 @@
                     <option <?= ($row['MaKM'] == $data['MaKM'])?'selected':''?> value="<?= $row['MaKM'] ?>"><?= $row['TenKM'] ?></option>
                 <?php } ?>
             </select>
-        </div>
-        <div class="form-group">
-            <label for="">Màn hình</label>
-            <input type="text" class="form-control" id="" placeholder="" name="ManHinh" value="<?=$data['ManHinh']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Hệ điều hành</label>
-            <input type="text" class="form-control" id="" placeholder="" name="HDH" value="<?=$data['HDH']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Camera trước</label>
-            <input type="text" class="form-control" id="" placeholder="" name="CamTruoc" value="<?=$data['CamTruoc']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Camera sau</label>
-            <input type="text" class="form-control" id="" placeholder="" name="CamSau" value="<?=$data['CamSau']?>">
-        </div>
-        <div class="form-group">
-            <label for="">CPU</label>
-            <input type="text" class="form-control" id="" placeholder="" name="CPU" value="<?=$data['CPU']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Ram</label>
-            <input type="text" class="form-control" id="" placeholder="" name="Ram" value="<?=$data['Ram']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Rom</label>
-            <input type="text" class="form-control" id="" placeholder="" name="Rom" value="<?=$data['Rom']?>">
-        </div>
-        <div class="form-group">
-            <label for="">Pin</label>
-            <input type="text" class="form-control" id="" placeholder="" name="Pin" value="<?=$data['Pin']?>">
-        </div>
-        <div class="form-group">
-            <label for="">SDCard</label>
-            <input type="text" class="form-control" id="" placeholder="" name="SDCard" value="<?=$data['SDCard']?>">
         </div>
         <label for="">Mô tả</label>
         <div class="form-group">

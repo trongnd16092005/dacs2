@@ -11,7 +11,7 @@
   <thead>
     <tr>
       <th scope="col">Mã sản phẩm</th>
-      <th scope="col">Tài sản phẩm</th>
+      <th scope="col">Tên sản phẩm</th>
       <th scope="col">Giá thành</th>
       <th scope="col">Số lượng</th>
       <th scope="col">Trạng thái</th>

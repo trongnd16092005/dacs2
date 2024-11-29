@@ -5442,6 +5442,19 @@ a.close.disabled {
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
+.img-logo-wrapper {
+  width: 10px; /* Giới hạn chiều rộng */
+  height: 10px; /* Giới hạn chiều cao */
+  overflow: hidden; /* Ẩn phần ảnh thừa nếu có */
+}
+
+.img-logo {
+  width: 100%; /* Đảm bảo ảnh co giãn theo kích thước của thẻ cha */
+  height: 100%; /* Đảm bảo ảnh co giãn theo kích thước của thẻ cha */
+  object-fit: contain; /* Giữ tỷ lệ gốc của ảnh */
+}
+
+
 
 .toast-body {
   padding: 0.75rem;

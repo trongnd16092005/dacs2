@@ -23,7 +23,7 @@
         <td><?= $row['MaLSP'] ?></td>
         <td><?= $row['TenLSP'] ?></td>
         <td>
-          <img src="../public/img/company/<?= $row['HinhAnh'] ?>" height="60px">
+          <img src="../public/<?= $row['HinhAnh'] ?>" height="60px">
         </td>
         <td><?= $row['Mota'] ?></td>
         <td>

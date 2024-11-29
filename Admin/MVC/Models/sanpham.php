@@ -19,4 +19,11 @@ class sanpham extends model
         require("result.php");
         return $data;
     }
+    public function countByDanhMuc($MaDM)
+{
+    $query = "SELECT COUNT(*) AS count FROM sanpham WHERE MaDM = '$MaDM'";
+    $result = $this->conn->query($query);
+    $row = $result->fetch_assoc();
+    return $row['count'];
+}
 }

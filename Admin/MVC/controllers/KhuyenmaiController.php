@@ -29,7 +29,7 @@ class KhuyenmaiController
 			'LoaiKM' => $_POST['LoaiKM'],
 			'GiaTriKM' => $_POST['GiaTriKM'],
 			'NgayBD' => $NgayBD,
-			'TrangThai' => '1'
+			'TrangThai' => 'active'
 		);
 		foreach ($data as $key => $value) {
             if (strpos($value, "'") != false) {

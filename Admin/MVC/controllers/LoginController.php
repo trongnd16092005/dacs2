@@ -19,6 +19,9 @@
             $data_tksp1 = $this->login_model->tk_sanpham(1);
             $data_tksp2 = $this->login_model->tk_sanpham(2);
             $data_tksp3 = $this->login_model->tk_sanpham(3);
+            $data_tksp4 = $this->login_model->tk_sanpham(4);
+            $data_tksp5 = $this->login_model->tk_sanpham(5);
+
 
             $data_hd = $this->login_model->tk_thongbao();
 

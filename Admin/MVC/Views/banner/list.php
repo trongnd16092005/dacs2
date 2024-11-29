@@ -16,13 +16,13 @@
   <tbody>
     <?php foreach ($data as $row) { ?>
       <tr>
-        <td><?= $row['Id'] ?></td>
+        <td><?= $row['id'] ?></td>
         <td><?= $row['HinhAnh'] ?></td>
         <td>
-          <a href="?mod=banner&act=detail&id=<?= $row['Id'] ?>" class="btn btn-success">Xem</a>
+          <a href="?mod=banner&act=detail&id=<?= $row['id'] ?>" class="btn btn-success">Xem</a>
           <?php if (isset($_SESSION['isLogin_Admin']) && $_SESSION['isLogin_Admin'] == true) { ?>
-          <a href="?mod=banner&act=edit&id=<?= $row['Id'] ?>" class="btn btn-warning">Sửa</a>
-          <a href="?mod=banner&act=delete&id=<?= $row['Id'] ?>" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger">Xóa</a>
+          <a href="?mod=banner&act=edit&id=<?= $row['id'] ?>" class="btn btn-warning">Sửa</a>
+          <a href="?mod=banner&act=delete&id=<?= $row['id'] ?>" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger">Xóa</a>
           <?php }?>
         </td>
       </tr>
