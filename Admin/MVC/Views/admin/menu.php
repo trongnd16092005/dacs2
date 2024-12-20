@@ -1,11 +1,12 @@
- <!-- Sidebar -->
- <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #1e90ff;">
+<!-- Sidebar -->
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #343a40;">
 
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
 <div class="img-logo-wrapper">
-  <img src="../public/img/logo4.jpg" class="img-logo" alt="Sellshop" />
-</div>  <div class="sidebar-brand-text mx-3">Havana Shop</div>
+  <img src="../public/img/newlogo.jpg" class="img-logo" alt="NewShop" />
+</div>  
+<div class="sidebar-brand-text mx-3">New Shop</div>
 </a>
 
 <!-- Divider -->

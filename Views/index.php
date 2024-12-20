@@ -9,9 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="public/img/iconlogo.jpg">
-
     <link rel="apple-touch-icon" href="public/apple-touch-icon.png">
-    <!-- Place icon.png in the root directory -->
     <!-- google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>

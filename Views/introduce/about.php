@@ -28,7 +28,7 @@
 						<img src="public/img/about/cuahang.jpg" alt="" />
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6">
+				<div class="col-sm-12 col-md-7">
 					<div class="about-text">
 						<div class="about-author">
 							<h4>Cửa hàng tạp hóa Havana</h4>

@@ -116,18 +116,17 @@
     opacity: 1;
   }
 
-  /* Đã giảm kích thước form */
   .main-input {
     background: #ffffff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 30px; /* Giảm padding */
+    padding: 30px;
     text-align: center;
     width: 100%;
-    max-width: 400px; /* Giảm chiều rộng tối đa */
+    max-width: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-sizing: border-box;
-    margin: 250px auto ;
+    margin: 250px auto;
     z-index: 10;
   }
 
@@ -137,7 +136,7 @@
   }
 
   .log-title h3 {
-    font-size: 20px; /* Giảm kích thước tiêu đề */
+    font-size: 20px;
     color: #333;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -146,7 +145,7 @@
 
   .custom-input input {
     width: 100%;
-    padding: 8px 12px; /* Giảm padding */
+    padding: 8px 12px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -177,9 +176,9 @@
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 18px; /* Giảm padding */
+    padding: 10px 18px;
     border-radius: 5px;
-    font-size: 14px; /* Giảm kích thước nút */
+    font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -203,5 +202,47 @@
 
   .alert-success strong {
     font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .main-input {
+      padding: 20px;
+      margin: 150px auto;
+    }
+
+    .log-title h3 {
+      font-size: 18px;
+    }
+
+    .custom-input input {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+
+    .submit-text button {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .main-input {
+      padding: 15px;
+      margin: 100px auto;
+    }
+
+    .log-title h3 {
+      font-size: 16px;
+    }
+
+    .custom-input input {
+      padding: 5px 8px;
+      font-size: 10px;
+    }
+
+    .submit-text button {
+      padding: 6px 14px;
+      font-size: 10px;
+    }
   }
 </style>

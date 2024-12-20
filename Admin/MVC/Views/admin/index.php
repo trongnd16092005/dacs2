@@ -9,8 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>HAVANA Admin - Dashboard</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/public/img/iconlogo.jpg">
+  <title>New Admin Dashboard</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/public/img/newicon.jpg">
 
   <!-- Custom fonts for this template-->
   <link href="public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,6 +18,7 @@
 
   <!-- Custom styles for this template-->
   <link href="public/css/./sb-admin-2.min.css" rel="stylesheet" type="text/css">
+  <link href="public/css/custom-styles.css" rel="stylesheet" type="text/css">
   <script src="public/vendor/jquery/jquery.min.js"></script>
 
   <!-- summernote-->
@@ -47,7 +48,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Tables</h1>
+          <h1 class="h3 mb-2 text-gray-800">New Tables Interface</h1>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
@@ -55,7 +56,7 @@
               <h6 class="m-0 font-weight-bold text-primary">
                 <?php
                 $mod = isset($_GET['mod']) ? $_GET['mod'] : "login";
-                echo "Database " . $mod;
+                echo "New Database " . $mod;
                 ?>
               </h6>
             </div>
