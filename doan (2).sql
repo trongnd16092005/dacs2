@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th10 29, 2024 lúc 10:46 PM
+-- Thời gian đã tạo: Th12 24, 2024 lúc 10:19 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.0.30
 
@@ -112,7 +112,8 @@ CREATE TABLE `hoadon` (
 INSERT INTO `hoadon` (`MaHD`, `MaND`, `NgayLap`, `NguoiNhan`, `SDT`, `DiaChi`, `PhuongThucTT`, `TongTien`, `TrangThai`) VALUES
 (1, 14, '2024-11-29 21:37:30', 'Nguyễn Trọng', '0123456789', 'Hue', NULL, 599000.00, 1),
 (2, 2, '2024-11-29 21:44:39', 'Nguyễn Triệu', '01222222', 'Hue', NULL, 1089000.00, 0),
-(3, 2, '2024-11-29 21:45:17', 'Nguyễn Triệu', '01222222', 'Hue', NULL, 1108000.00, 1);
+(3, 2, '2024-11-29 21:45:17', 'Nguyễn Triệu', '01222222', 'Hue', NULL, 1108000.00, 1),
+(4, 2, '2024-12-24 21:01:51', 'Nguyễn Triệu', '01222222', 'Huea', NULL, 0.00, 0);
 
 -- --------------------------------------------------------
 
@@ -236,7 +237,7 @@ CREATE TABLE `sanpham` (
   `MaDM` int(11) DEFAULT NULL,
   `TenSP` varchar(100) DEFAULT NULL,
   `DonGia` decimal(10,2) DEFAULT NULL,
-  `SoLuong` int(11) DEFAULT NULL,
+  `Kho` int(11) DEFAULT 1,
   `HinhAnh` varchar(255) DEFAULT NULL,
   `MaKM` int(11) DEFAULT NULL,
   `SoSao` decimal(3,2) DEFAULT NULL,
@@ -250,8 +251,8 @@ CREATE TABLE `sanpham` (
 -- Đang đổ dữ liệu cho bảng `sanpham`
 --
 
-INSERT INTO `sanpham` (`MaSP`, `MaLSP`, `MaDM`, `TenSP`, `DonGia`, `SoLuong`, `HinhAnh`, `MaKM`, `SoSao`, `SoDanhGia`, `TrangThai`, `MoTa`, `ThoiGian`) VALUES
-(1001, 101, 1, 'Pepsi 6 lon', 55000.00, 12, '/img/products/1/1001.jpg\r\n', 1, 5.00, 12, 1, 'hot', '2024-10-31 19:58:32'),
+INSERT INTO `sanpham` (`MaSP`, `MaLSP`, `MaDM`, `TenSP`, `DonGia`, `Kho`, `HinhAnh`, `MaKM`, `SoSao`, `SoDanhGia`, `TrangThai`, `MoTa`, `ThoiGian`) VALUES
+(1001, 101, 1, 'Pepsi 6 lon', 55000.00, 1, '/img/products/1/1001.jpg\r\n', 1, 5.00, 12, 1, 'hot', '2024-10-31 19:58:32'),
 (1002, 101, 1, 'Nutri Boost 6 chai', 55000.00, 12, '/img/products/1/1002.jpg', 1, 5.00, 12, 1, 'hot', '2024-10-31 19:58:32'),
 (1003, 101, 1, '1 thùng Milo', 190000.00, 12, '/img/products/1/1003.jpg', 3, 4.00, 12, 1, 'hot', '2024-10-31 20:04:06'),
 (1004, 101, 1, 'Nước yến Sannest 8 lọ', 90000.00, 12, '/img/products/1/1004.jpg', 3, 4.00, 12, 1, 'hot', '2024-10-31 20:04:06'),
@@ -414,7 +415,7 @@ ALTER TABLE `danhmuc`
 -- AUTO_INCREMENT cho bảng `hoadon`
 --
 ALTER TABLE `hoadon`
-  MODIFY `MaHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `MaHD` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT cho bảng `khuyenmai`
