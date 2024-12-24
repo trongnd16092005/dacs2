@@ -22,6 +22,11 @@
 			<div class="col-xs-12">
 				<div class="table-responsive padding60">
 					<table class="wishlist-table text-center" id="dxd">
+					<?php if (isset($_COOKIE['msg'])) { ?>
+									<div class="alert alert-success">
+										<strong>Thông báo</strong> <?= $_COOKIE['msg'] ?>
+									</div>
+								<?php } ?>
 						<thead>
 							<tr>
 								<th>Sản phẩm</th>

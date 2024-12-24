@@ -6,7 +6,7 @@
             //Thong so ket noi CSDL
             $severname ="localhost"; 
             $username ="root";
-            $password ="170805"; 
+            $password =""; 
             $db_name ="doan";
  
             //Tao ket noi CSDL
